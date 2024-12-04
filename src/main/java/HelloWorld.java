@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "hello shaik jilan basha now webhook is working properly");
+		get("/hello", (req, res) -> "hello shaik jilan basha");
 	}
 }
